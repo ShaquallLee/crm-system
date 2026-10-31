@@ -1,0 +1,9 @@
+logging:
+  level:
+    com.crm: info
+  file:
+    name: ${LOG_FILE:logs/crm.log}
+  logback:
+    rollingpolicy:
+      max-file-size: 50MB
+      max-history: 30

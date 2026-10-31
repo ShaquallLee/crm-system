@@ -1,0 +1,30 @@
+# Java / Maven
+backend/target/
+*.class
+*.jar
+
+# Node / 前端构建产物
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-error.log*
+
+# 日志
+logs/
+*.log
+
+# 本地环境变量与密钥（提交示例文件请使用 .env.example）
+.env
+.env.local
+*.env
+!*.env.example
+
+# IDE 与系统文件
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# 本地调试产物（截图、Agent 工作目录）
+.trae/
+.screenshots/
